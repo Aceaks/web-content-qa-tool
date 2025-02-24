@@ -27,3 +27,5 @@ ollama serve
 ## Run the Application
 ### In a separate terminal window, start the Streamlit app
 streamlit run app.py
+
+** The .devcontainer folder is not required and got created while trying to generate live hosting of the application!
