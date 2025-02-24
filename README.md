@@ -19,3 +19,10 @@ This **Web Content Q&A Tool** allows users to:
 ```bash
 git clone https://github.com/Aceaks/web-content-qa-tool
 cd web-content-qa-tool
+### 2️⃣  Installation
+pip install -r requirements.txt
+curl -fsSL https://ollama.com/install.sh | sh
+ollama serve
+### 3️⃣ Running app
+In seperate terminal window run the app by following command:
+streamlit run app.py
