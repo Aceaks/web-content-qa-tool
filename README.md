@@ -14,23 +14,19 @@ This **Web Content Q&A Tool** allows users to:
 
 ---
 
-🛠 Installation & Setup
-1️⃣ Clone the Repository
+## 🛠 Installation & Setup
+### Clone the repository
 bash
-Copy
-Edit
 git clone https://github.com/Aceaks/web-content-qa-tool
 cd web-content-qa-tool
-2️⃣ Install Dependencies & Ollama
+
+## Install Dependencies & Ollama
 bash
-Copy
-Edit
 pip install -r requirements.txt
 curl -fsSL https://ollama.com/install.sh | sh
 ollama serve
-3️⃣ Run the Application
+
+## Run the Application
 bash
-Copy
-Edit
 # In a separate terminal window, start the Streamlit app
 streamlit run app.py
